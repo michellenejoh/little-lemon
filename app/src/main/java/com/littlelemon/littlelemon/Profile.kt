@@ -43,15 +43,14 @@ fun Profile(navController: NavHostController, sharedPreferences: SharedPreferenc
             contentDescription = "Header",
             contentScale = ContentScale.Fit,
             modifier = Modifier
-                .padding(bottom= 16.dp, top = 16.dp)
+                .padding(bottom= 16.dp, top = 30.dp)
                 .fillMaxWidth()
-                .height(100.dp)
+                .height(50.dp)
 
         )
         Text (
             "Profile information",
             fontSize = 20.sp,
-            modifier = Modifier.padding(bottom= 16.dp, top = 16.dp)
         )
         Column (
             verticalArrangement = Arrangement.spacedBy(10.dp),
@@ -59,7 +58,6 @@ fun Profile(navController: NavHostController, sharedPreferences: SharedPreferenc
             Text("First Name: $firstName")
             Text("Last Name: $lastName")
             Text("Email: $email")
-
         }
 
         Button (

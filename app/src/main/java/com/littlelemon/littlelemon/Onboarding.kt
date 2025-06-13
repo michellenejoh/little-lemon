@@ -67,9 +67,9 @@ import androidx.compose.ui.text.TextStyle
             contentDescription = "Header",
             contentScale = ContentScale.Fit,
             modifier = Modifier
-                .padding(bottom= 16.dp, top = 16.dp)
+                .padding(bottom= 16.dp, top = 20.dp)
                 .fillMaxWidth()
-                .height(100.dp)
+                .height(50.dp)
 
         )
         Text (
